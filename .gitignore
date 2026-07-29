@@ -1,0 +1,29 @@
+# --- SEGURIDAD (CRÍTICO) ---
+.env
+.env.*
+
+# --- ENTORNO VIRTUAL ---
+env_sql/
+venv/
+.venv/
+
+# --- ARCHIVOS TEMPORALES Y CACHÉ ---
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# --- ARCHIVOS MULTIMEDIA / TEMPORALES NO REQUERIDOS ---
+*.png
+*.jpg
+*.jpeg
+*.txt
+
+# Archivos de Tableau
+*.twbx
+*.twb
+
+# Presentaciones y documentos pesados
+*.pdf
+
+# Formatos de imágenes adicionales
+*.avif
